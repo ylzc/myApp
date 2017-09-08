@@ -1,6 +1,6 @@
 define(['app'], function (app) {
     app
-        .controller("kaoqinCtrl",
+        .controller("tab3Ctrl",
             function ($scope, $rootScope, $cordovaDeviceMotion, $interval) {
 
             })
