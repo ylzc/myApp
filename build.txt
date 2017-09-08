@@ -1,0 +1,7 @@
+ionic cordova build --release --prod android
+
+jarsigner -verbose -keystore app.jks  -signedjar myApp.apk ./platforms/android/build/outputs/apk/android-release-unsigned.apk sucsoft
+
+123456
+
+

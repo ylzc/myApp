@@ -1,0 +1,70 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova.plugins.diagnostic": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "com.pylonproducts.wifiwizard": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.sucsoft.zhglpt"
+        }
+    }
+}

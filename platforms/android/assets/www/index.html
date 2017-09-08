@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link rel="manifest" href="manifest.json">
+
+    <!-- un-comment this code to enable service worker
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(() => console.log('service worker installed'))
+          .catch(err => console.log('Error', err));
+      }
+    </script>-->
+
+    <link rel="stylesheet" href="css/ionic.app.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <!--<link href="lib/OpenLayers/css/ol.css" rel="stylesheet">-->
+    <!--<link href="lib/OpenLayers/p-ol3/p-ol3.min.css" rel="stylesheet">-->
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- cordova script (this will be a 404 during development) -->
+
+</head>
+<body ng-controller="appCtrl" class="ionic-body platform-android platform-cordova platform-webview">
+<ion-nav-view></ion-nav-view>
+<script src="appConfigFile.js"></script>
+<script data-main="js/require-config.js" src="lib/requirejs/require.js"></script>
+<script src="cordova.js"></script>
+</body>
+</html>
